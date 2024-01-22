@@ -1,8 +1,44 @@
-# React + Vite
+# Markdown Previewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, Markdown dosyalarını düzenlemenize, önizlemenize, indirmenize ve yüklemenize olanak tanıyan basit bir Markdown önizleme sitesidir.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Markdown dosyalarını düzenleyebilme
+- Düzenlediğiniz dosyanın anlık önizlemesini görebilme
+- Düzenlediğiniz dosyayı indirebilme
+- Bilgisayarınızdan Markdown dosyası yükleyebilme
+
+## Ekran Görüntüsü
+
+![image](https://github.com/ferhatkplnn/markdown-previewer/assets/29931637/065762c6-13da-4032-8dc9-beb1312839b1)
+
+## Kurulum
+
+Proje dosyalarınızı bilgisayarınıza klonlayın:
+
+```bash
+git clone https://github.com/ferhatkplnn/markdown-previewer.git
+```
+
+Proje dizinine gidin ve bağımlılıkları yükleyin:
+
+```bash
+cd markdown-previewer
+npm install
+```
+
+Ardından uygulamayı başlatın:
+
+```bash
+npm run dev
+```
+
+
+## Katkıda Bulunma
+
+Eğer projeye katkıda bulunmak istiyorsanız, lütfen bir çekme isteği (pull request) gönderin. Katkılarınızı bekliyoruz!
+
+## Lisans
+
+Bu proje MIT Lisansı altında lisanslanmıştır - Detaylar için [LICENSE.md](LICENSE.md) dosyasına bakabilirsiniz.
