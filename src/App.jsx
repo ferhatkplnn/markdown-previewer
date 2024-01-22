@@ -66,7 +66,6 @@ function App() {
       const reader = new FileReader();
       reader.onload = (e) => {
         const fileContent = e.target.result;
-        console.log("Dosya İçeriği:", fileContent);
         setText(fileContent);
       };
       reader.readAsText(selectedFile);
