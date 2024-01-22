@@ -155,7 +155,7 @@ body {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .pages {
     gap: 2px;
     flex-direction: column;
